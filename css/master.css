@@ -1,0 +1,58 @@
+:root{
+
+
+
+}
+/* TODO poner aca los cambios en pantallas pequeñas*/
+
+
+body{
+
+  background-image: url("../img/fondo.png");
+
+}
+
+#contenedor img{
+
+  height: 300px;
+
+}
+
+#buscar-btn:hover{
+
+  color: black;
+
+}
+
+@media (max-width: 1000px) {
+
+  #contenedor img{
+
+    height: 250px;
+
+  }
+}
+
+@media (max-width: 800px) {
+  .nav {
+    display: none;
+  }
+  #carrusel-promociones{
+
+    display:none;
+
+  }
+  #contenedor img{
+
+    height: 200px;
+
+  }
+}
+
+@media (max-width: 600px) {
+  #contenedor img{
+
+    height: 400px;
+
+  }
+}
